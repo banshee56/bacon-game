@@ -1,0 +1,118 @@
+test result for larger test:
+
+c <#>: list top (positive number) or bottom (negative) <#> centers of the universe, sorted by average separation
+d <#>: list top (positive number) or bottom (negative) <#> actors sorted by degree
+i: list actors with infinite separation from the current center
+p <name>: find path from <name> to current center of the universe
+s: show the average separation between current center and all actors connected to them
+u <name>: make <name> the center of the universe
+q: quit game
+Kevin Bacon is now the center of the acting universe, connected to 7493/9235 actors.
+
+Kevin Bacon game >
+p Sandra Bullock
+Sandra Bullock's number is 2
+Sandra Bullock appeared in [Vanishing, The (1993)] with Kiefer Sutherland
+Kiefer Sutherland appeared in [Flatliners (1990)] with Kevin Bacon
+
+Kevin Bacon game >
+p Bansharee
+Name not found. Please try again.
+
+Kevin Bacon game >
+u Yoichi Numata
+Yoichi Numata is now the center of the acting universe, connected to 3/9235 actors.
+
+Kevin Bacon game >
+s
+Average separation with center Yoichi Numata: 1.0
+
+Kevin Bacon game >
+u Denzel Washington
+Denzel Washington is now the center of the acting universe, connected to 7493/9235 actors.
+
+Kevin Bacon game >
+s
+Average separation with center Denzel Washington: 3.2917389563592687
+
+Kevin Bacon game >
+d 10
+Best possible Bacons (with largest degree):
+Robert De Niro    102
+Gene Hackman    102
+Michael Caine    99
+Sean Connery    95
+Harvey Keitel    91
+Robin Williams    89
+Clint Eastwood    89
+Jeff Bridges    87
+Bruce Willis    83
+Robert Duvall    83
+
+Kevin Bacon game >
+d -20
+Worst possible Bacons (with smallest degree):
+Patrick Achdjian    0
+Polli Magaro    0
+Gigi Leung    0
+Michel Simon    0
+Joshua Suherman    0
+Dickie Jones    0
+Vern Stierman    0
+Jack (III) Elliott    0
+James Brooks    0
+Lynton Dearden    0
+Julie Sedgewick    0
+Pedro Almodovar    0
+Paddy OByrne    0
+Tim Choate    0
+Leigh Bowery    0
+Susan Tom    0
+Anand Patwardhan    0
+Marla Schaffel    0
+Robert Evans    0
+Michael (II) Carr    0
+
+Kevin Bacon game >
+c -5
+Worst possible Bacons (with largest average separation):
+Sara Allgood  8.676764980648606
+Charles Paton  8.676764980648606
+John F. Hamilton  8.676764980648606
+John Longden  8.676764980648606
+Bernhard Goetzke  8.676764980648606
+
+Kevin Bacon game >
+c 10
+Best possible Bacons (with smallest average separation):
+Gene Hackman  3.058454557587081
+Robert De Niro  3.113839583611371
+Robert Duvall  3.13038836247164
+Sean Connery  3.1949819831843054
+Michael Caine  3.1989857200053384
+Bruce Willis  3.2003202989456825
+Jeff Bridges  3.20565861470706
+Dustin Hoffman  3.2113973041505406
+Harvey Keitel  3.2292806619511545
+Paul Newman  3.2295475777392233
+
+Kevin Bacon game >
+c -10
+Worst possible Bacons (with largest average separation):
+Sara Allgood  8.676764980648606
+Charles Paton  8.676764980648606
+John F. Hamilton  8.676764980648606
+John Longden  8.676764980648606
+Bernhard Goetzke  8.676764980648606
+Nita Naldi  8.676764980648606
+Clara Bow  8.241825703990392
+Richard Arlen  8.241825703990392
+Jobyna Ralston  8.241825703990392
+Tony Ganios  7.655545175497131
+
+Kevin Bacon game >
+q
+
+Game over. Thank you for playing!
+
+Process finished with exit code 0

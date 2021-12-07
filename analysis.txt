@@ -1,0 +1,10 @@
+Best/Worst Bacons Analysis
+
+I would say Robert De Niro is a better Bacon than Kevin Bacon himself and others.
+He has the largest degree and the second smallest average separation.
+
+On the other hand, I would say Sara Allgood would be a bad Bacon because she has the largest average separation
+in the Kevin Bacon universe (where Bacon is the center).
+She also has a very low degree of just 3.
+
+In summary, I think De Niro would be the best Bacon while Allgood would be a bad Bacon, both in terms of separation and degree. 

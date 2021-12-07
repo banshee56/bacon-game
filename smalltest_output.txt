@@ -1,0 +1,88 @@
+test results with given small test files:
+
+
+c <#>: list top (positive number) or bottom (negative) <#> centers of the universe, sorted by average separation
+d <#>: list top (positive number) or bottom (negative) <#> actors sorted by degree
+i: list actors with infinite separation from the current center
+p <name>: find path from <name> to current center of the universe
+s: show the average separation between current center and all actors connected to them
+u <name>: make <name> the center of the universe
+q: quit game
+Kevin Bacon is now the center of the acting universe, connected to 4/7 actors.
+
+Kevin Bacon game >
+u 0
+Name not found. Please try again.
+
+Kevin Bacon game >
+u Dartmouth (Earl thereof)
+Dartmouth (Earl thereof) is now the center of the acting universe, connected to 4/7 actors.
+
+Kevin Bacon game >
+p Kevin Bacon
+Kevin Bacon's number is 3
+Kevin Bacon appeared in [A movie] with Bob
+Bob appeared in [C movie] with Charlie
+Charlie appeared in [B movie] with Dartmouth (Earl thereof)
+
+Kevin Bacon game >
+ppp
+Invalid feature. Please check commands.
+
+Kevin Bacon game >
+c120
+Invalid feature. Please check commands.
+
+Kevin Bacon game >
+c 120
+Best possible Bacons (with smallest average separation):
+Bob  1.25
+Alice  1.25
+Charlie  1.25
+Kevin Bacon  1.75
+Dartmouth (Earl thereof)  2.0
+
+Kevin Bacon game >
+c -2
+Worst possible Bacons (with largest average separation):
+Dartmouth (Earl thereof)  2.0
+Kevin Bacon  1.75
+
+Kevin Bacon game >
+d 10
+Best possible Bacons (with largest degree):
+Bob    3
+Alice    3
+Charlie    3
+Kevin Bacon    2
+Nobody    1
+Nobody's Friend    1
+Dartmouth (Earl thereof)    1
+
+Kevin Bacon game >
+d -3
+Worst possible Bacons (with smallest degree):
+Dartmouth (Earl thereof)    1
+Nobody's Friend    1
+Nobody    1
+
+Kevin Bacon game >
+s
+Average separation with center Dartmouth (Earl thereof): 2.0
+
+Kevin Bacon game >
+i
+The actors with infinite separation from Dartmouth (Earl thereof):
+Nobody
+Nobody's Friend
+
+Kevin Bacon game >
+d67
+Invalid feature. Please check commands.
+
+Kevin Bacon game >
+q
+
+Game over. Thank you for playing!
+
+Process finished with exit code 0
